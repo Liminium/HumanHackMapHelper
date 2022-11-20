@@ -9,8 +9,6 @@ from PyQt5.QtCore import *
 from core import *
 from settings import *
 
-import icons
-
 from warning import WarningDialog
 from org_list import OrganisationList
 from time_here import TimeHereDialog
