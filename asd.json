@@ -1,0 +1,796 @@
+{
+        "type": "FeatureCollection",
+        "properties": {
+                "ResponseMetaData": {
+                        "SearchResponse": {
+                                "found": 36,
+                                "display": "multiple",
+                                "boundedBy": [
+                                        [
+                                                38.94961213,
+                                                45.02261968
+                                        ],
+                                        [
+                                                38.99731087,
+                                                45.07031709
+                                        ]
+                                ]
+                        },
+                        "SearchRequest": {
+                                "request": "кафе",
+                                "skip": 0,
+                                "results": 10,
+                                "boundedBy": [
+                                        [
+                                                38.92802452,
+                                                44.99712346
+                                        ],
+                                        [
+                                                39.02351748,
+                                                45.09261642
+                                        ]
+                                ]
+                        }
+                }
+        },
+        "features": [
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.977692,
+                                        45.045512
+                                ]
+                        },
+                        "properties": {
+                                "name": "Бумбараш",
+                                "description": "Красная ул., 143/3, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.973651,
+                                                45.042591
+                                        ],
+                                        [
+                                                38.981862,
+                                                45.048412
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "1165731778",
+                                        "name": "Бумбараш",
+                                        "address": "Краснодар, Красная улица, 143/3",
+                                        "url": "http://mandarinfamily.ru/",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (918) 033-79-99"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                },
+                                                {
+                                                        "class": "cafe",
+                                                        "name": "Кафе"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "пн-чт 11:00–00:00; пт,сб 09:00–02:00; вс 09:00–00:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "11:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Monday": true,
+                                                                "Tuesday": true,
+                                                                "Wednesday": true,
+                                                                "Thursday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "09:00:00",
+                                                                                "to": "02:00:00"
+                                                                        }
+                                                                ],
+                                                                "Friday": true,
+                                                                "Saturday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "09:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Sunday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.984839,
+                                        45.039953
+                                ]
+                        },
+                        "properties": {
+                                "name": "Цех этого города",
+                                "description": "ул. Янковского, 182/40, Центральный внутригородской округ, микрорайон Центральный, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.980919,
+                                                45.037076
+                                        ],
+                                        [
+                                                38.989129,
+                                                45.042897
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "153785650542",
+                                        "name": "Цех этого города",
+                                        "address": "Краснодар, Центральный внутригородской округ, микрорайон Центральный, улица Янковского, 182/40",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (938) 444-40-88"
+                                                },
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (938) 444-40-99"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                },
+                                                {
+                                                        "class": "cafe",
+                                                        "name": "Кафе"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "пн-чт 11:00–00:00; пт,сб 11:00–01:00; вс 11:00–00:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "11:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Monday": true,
+                                                                "Tuesday": true,
+                                                                "Wednesday": true,
+                                                                "Thursday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "11:00:00",
+                                                                                "to": "01:00:00"
+                                                                        }
+                                                                ],
+                                                                "Friday": true,
+                                                                "Saturday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "11:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Sunday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.973354,
+                                        45.047257
+                                ]
+                        },
+                        "properties": {
+                                "name": "Нонна Мия",
+                                "description": "ул. Бабушкина, 293, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.969196,
+                                                45.044393
+                                        ],
+                                        [
+                                                38.977406,
+                                                45.050214
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "1132897478",
+                                        "name": "Нонна Мия",
+                                        "address": "Краснодар, улица Бабушкина, 293",
+                                        "url": "http://www.lubofamily.ru/",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (861) 255-12-55"
+                                                },
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (918) 059-83-49"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                },
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Пиццерия"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "ежедневно, 11:00–00:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "11:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Everyday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.979895,
+                                        45.04627
+                                ]
+                        },
+                        "properties": {
+                                "name": "Голый Повар",
+                                "description": "Красная ул., 176лит1/1, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.975834,
+                                                45.043381
+                                        ],
+                                        [
+                                                38.984045,
+                                                45.049201
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "76278789000",
+                                        "name": "Голый Повар",
+                                        "address": "Краснодар, Красная улица, 176лит1/1",
+                                        "url": "http://nakedchef.ru/",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (961) 512-58-88"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "пн-чт 10:00–00:00; пт,сб 10:00–01:00; вс 10:00–00:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "10:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Monday": true,
+                                                                "Tuesday": true,
+                                                                "Wednesday": true,
+                                                                "Thursday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "10:00:00",
+                                                                                "to": "01:00:00"
+                                                                        }
+                                                                ],
+                                                                "Friday": true,
+                                                                "Saturday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "10:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Sunday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.973905,
+                                        45.040849
+                                ]
+                        },
+                        "properties": {
+                                "name": "Гусь",
+                                "description": "Северная ул., 279, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.970309,
+                                                45.038439
+                                        ],
+                                        [
+                                                38.97852,
+                                                45.04426
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "118477845428",
+                                        "name": "Гусь",
+                                        "address": "Краснодар, Северная улица, 279",
+                                        "url": "https://madyar.ru/",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (918) 983-55-33"
+                                                },
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (861) 251-70-12"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                },
+                                                {
+                                                        "class": "fallback services",
+                                                        "name": "Доставка еды и обедов"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "пн-чт 12:00–01:00; пт,сб 12:00–02:00; вс 12:00–01:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "12:00:00",
+                                                                                "to": "01:00:00"
+                                                                        }
+                                                                ],
+                                                                "Monday": true,
+                                                                "Tuesday": true,
+                                                                "Wednesday": true,
+                                                                "Thursday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "12:00:00",
+                                                                                "to": "02:00:00"
+                                                                        }
+                                                                ],
+                                                                "Friday": true,
+                                                                "Saturday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "12:00:00",
+                                                                                "to": "01:00:00"
+                                                                        }
+                                                                ],
+                                                                "Sunday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.977321,
+                                        45.039831
+                                ]
+                        },
+                        "properties": {
+                                "name": "Краснодарский парень",
+                                "description": "Северная ул., 358, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.973166,
+                                                45.036916
+                                        ],
+                                        [
+                                                38.981377,
+                                                45.042738
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "1373063629",
+                                        "name": "Краснодарский парень",
+                                        "address": "Краснодар, Северная улица, 358",
+                                        "url": "http://krd-paren.ru/",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (928) 444-48-92"
+                                                },
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (996) 535-38-62"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "cafe",
+                                                        "name": "Кафе"
+                                                },
+                                                {
+                                                        "class": "fast food",
+                                                        "name": "Быстрое питание"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "ежедневно, 11:00–22:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "11:00:00",
+                                                                                "to": "22:00:00"
+                                                                        }
+                                                                ],
+                                                                "Everyday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.97343,
+                                        45.032234
+                                ]
+                        },
+                        "properties": {
+                                "name": "Абрау-Дюрсо, petit cafe",
+                                "description": "Красная ул., 102, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.969258,
+                                                45.029349
+                                        ],
+                                        [
+                                                38.977469,
+                                                45.035171
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "54942303852",
+                                        "name": "Абрау-Дюрсо, petit cafe",
+                                        "address": "Краснодар, Красная улица, 102",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (988) 888-01-02"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "cafe",
+                                                        "name": "Кафе"
+                                                },
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "пн-чт 11:00–00:00; пт-вс 11:00–01:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "11:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Monday": true,
+                                                                "Tuesday": true,
+                                                                "Wednesday": true,
+                                                                "Thursday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "11:00:00",
+                                                                                "to": "01:00:00"
+                                                                        }
+                                                                ],
+                                                                "Friday": true,
+                                                                "Saturday": true,
+                                                                "Sunday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.981502,
+                                        45.04581
+                                ]
+                        },
+                        "properties": {
+                                "name": "Luka Pizza",
+                                "description": "Красная ул., 176лит5/1, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.977289,
+                                                45.042948
+                                        ],
+                                        [
+                                                38.9855,
+                                                45.048768
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "214308305308",
+                                        "name": "Luka Pizza",
+                                        "address": "Краснодар, Красная улица, 176лит5/1",
+                                        "url": "https://lukapizza.ru/",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "8 (800) 222-77-00"
+                                                },
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (861) 202-05-20"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                },
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Пиццерия"
+                                                },
+                                                {
+                                                        "class": "cafe",
+                                                        "name": "Кафе"
+                                                },
+                                                {
+                                                        "class": "fallback services",
+                                                        "name": "Доставка еды и обедов"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "пн-чт 10:00–00:00; пт,сб 10:00–02:00; вс 10:00–00:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "10:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Monday": true,
+                                                                "Tuesday": true,
+                                                                "Wednesday": true,
+                                                                "Thursday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "10:00:00",
+                                                                                "to": "02:00:00"
+                                                                        }
+                                                                ],
+                                                                "Friday": true,
+                                                                "Saturday": true
+                                                        },
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "10:00:00",
+                                                                                "to": "00:00:00"
+                                                                        }
+                                                                ],
+                                                                "Sunday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.972431,
+                                        45.036484
+                                ]
+                        },
+                        "properties": {
+                                "name": "Нахлебник",
+                                "description": "Рашпилевская ул., 106, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.968441,
+                                                45.034005
+                                        ],
+                                        [
+                                                38.976652,
+                                                45.039827
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "6580677066",
+                                        "name": "Нахлебник",
+                                        "address": "Краснодар, Рашпилевская улица, 106",
+                                        "url": "http://nahlebnikbar.ru/",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (861) 292-07-77"
+                                                },
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (929) 841-98-09"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "cafe",
+                                                        "name": "Кафе"
+                                                },
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                },
+                                                {
+                                                        "class": "fast food",
+                                                        "name": "Быстрое питание"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "ежедневно, 09:00–23:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "09:00:00",
+                                                                                "to": "23:00:00"
+                                                                        }
+                                                                ],
+                                                                "Everyday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                },
+                {
+                        "type": "Feature",
+                        "geometry": {
+                                "type": "Point",
+                                "coordinates": [
+                                        38.972585,
+                                        45.039331
+                                ]
+                        },
+                        "properties": {
+                                "name": "ЛЮБОКОФЕ",
+                                "description": "ул. Володи Головатого, 311, Краснодар, Россия",
+                                "boundedBy": [
+                                        [
+                                                38.968064,
+                                                45.036872
+                                        ],
+                                        [
+                                                38.976274,
+                                                45.042693
+                                        ]
+                                ],
+                                "CompanyMetaData": {
+                                        "id": "24946534313",
+                                        "name": "ЛЮБОКОФЕ",
+                                        "address": "Краснодар, улица Володи Головатого, 311",
+                                        "url": "http://www.lubofamily.ru/",
+                                        "Phones": [
+                                                {
+                                                        "type": "phone",
+                                                        "formatted": "+7 (861) 216-61-91"
+                                                }
+                                        ],
+                                        "Categories": [
+                                                {
+                                                        "class": "cafe",
+                                                        "name": "Кафе"
+                                                },
+                                                {
+                                                        "class": "cafe",
+                                                        "name": "Кофейня"
+                                                },
+                                                {
+                                                        "class": "restaurants",
+                                                        "name": "Ресторан"
+                                                }
+                                        ],
+                                        "Hours": {
+                                                "text": "ежедневно, 10:00–23:00",
+                                                "Availabilities": [
+                                                        {
+                                                                "Intervals": [
+                                                                        {
+                                                                                "from": "10:00:00",
+                                                                                "to": "23:00:00"
+                                                                        }
+                                                                ],
+                                                                "Everyday": true
+                                                        }
+                                                ]
+                                        }
+                                }
+                        }
+                }
+        ]
+}
