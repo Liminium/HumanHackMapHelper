@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-import os
 import pprint
 import subprocess
 
-import keyboard
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
@@ -22,8 +20,6 @@ from circular_progress import CircularProgress
 from logger import Logger
 
 cr.init(autoreset=True)
-
-print(os.getcwd())
 
 
 def get_json_data(filename: str) -> dict:
@@ -401,9 +397,8 @@ class MapHelper(QMainWindow, UiFunctionality, EasterEggsFunctionality):
 
         try:
             os.startfile("INTbot.exe")
-            print('did')
         except Exception:
-            print('didnt')
+            pass
 
         # Groups of buttons (to make an effect of multiple choice of many buttons)
         self.settings_appearance_theme_buttons = {self.appearance_theme_light_button: self.theme_light_button_selected,
@@ -665,7 +660,7 @@ class MapHelper(QMainWindow, UiFunctionality, EasterEggsFunctionality):
         self.play_audio(OPEN_SOUND)
 
         # Increasing number of opens
-        self.current_times_here = get_json_data(USER_JSON_DATA).get('time_heres', 0) + 0
+        self.current_times_here = get_json_data(USER_JSON_DATA).get('time_heres', 0) + 1
         write_json_data(filename=USER_JSON_DATA, **{"time_heres": self.current_times_here})
 
     def get_image(self, longitude: float, latitude: float, spn: float) -> bytes:
@@ -1153,16 +1148,14 @@ class MapHelper(QMainWindow, UiFunctionality, EasterEggsFunctionality):
                 text = text.replace('вс', 'Sun')
                 hours = text
 
-            rating = self.request_get(f'https://yandex.ru/maps/org/{org_id}/reviews/').text
-            rating = re.findall(r'"rating":\s*(\d)', rating)
-
             phone = props["CompanyMetaData"].get("Phones", [{'formatted': None}])[0]["formatted"]
             website = props["CompanyMetaData"].get('url', None)
 
-            try:
-                rating = round(sum(list(map(int, rating))) / len(rating), 1)
-            except ZeroDivisionError:
-                rating = round(sum(random.uniform(3.5, 5) for _ in range(20)) / 20, 1)
+            rating = self.request_get(f'https://yandex.ru/maps/org/{org_id}/reviews/').text
+            rating = re.findall(r'"rating":\s*(\d)', rating)
+            if not rating:
+                rating = [random.uniform(2.5, 5) for _ in range(20)]
+            rating = round(sum(list(map(int, rating))) / len(rating), 1)
 
             self.found_organisations_list.append(Organisation(org_id, name, address, coordinates, categories, hours, phone, website, rating.__str__()))
 
@@ -1174,9 +1167,6 @@ class MapHelper(QMainWindow, UiFunctionality, EasterEggsFunctionality):
 
         dots = '~'.join(re.sub(r'\s', '', v.coordinates) + f',pm2rdl{i}' for (i, v) in enumerate(self.found_organisations_list, 1))
         points = f"{','.join(ll_coordinates) + ',comma'}~{dots}"
-
-        with open("text.txt", mode='w', encoding="UTF-8") as f:
-            f.write("")
 
         for org in self.found_organisations_list:
             gen = ("Not found" if i is None else i for i in (org.id, org.name, org.address, org.coordinates, org.categories, org.hours, org.phone, org.website, org.rating))
